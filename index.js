@@ -85,4 +85,5 @@ app.post("/responder", (req, res) => {
 });
 
 //Porta do servidor
-app.listen(8080, () => {console.log("app rodando");});
+const PORT = process.env.PORT || 9090
+app.listen(PORT, () => {console.log("app rodando");});
