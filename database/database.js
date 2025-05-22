@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const connection = new Sequelize("mysql://root:iwYVdUTmBsthdIrHlapMVcrpPBvEKeWv@mainline.proxy.rlwy.net:25785/railway", {
+const connection = new Sequelize("mysql://root:vdhEPRQAkbvDlAZrYfFQRiWMAswcOhGB@nozomi.proxy.rlwy.net:45775/railway", {
     host: "localhost",
     dialect: "mysql"
 });
